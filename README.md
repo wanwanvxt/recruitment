@@ -1,4 +1,11 @@
 # Recruitment
 
-## 1. Requirement
-PHP + MySQL + NodeJs
+## 1. Chuẩn bị
+PHP + Composer + MySQL + NodeJs
+
+## 2. Backend
+* Khởi động MySQL và tạo bảng `recruitment`
+* Tạo tệp `.env` từ `.env.example`
+* `composer install`
+* `php artisan migrate:fresh --seed`
+* `php artisan serve`
