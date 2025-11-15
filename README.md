@@ -9,3 +9,8 @@ PHP + Composer + MySQL + NodeJs
 * `composer install`
 * `php artisan migrate:fresh --seed`
 * `php artisan serve`
+
+## 3. Frontend
+* Tạo tệp `.env` từ `.env.example`
+* `npm install`
+* `npm run dev`
